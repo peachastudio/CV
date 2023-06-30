@@ -1,0 +1,126 @@
+body {
+  font-family: 'avenir', sans-serif;
+  background-color: #F4F0E4;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2,
+.category-title {
+  font-family: 'avenir-black', sans-serif;
+}
+
+header {
+  background-color: #006633;
+  color: #F4F0E4;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header-description {
+  flex: 1;
+}
+
+h1 {
+  margin-top: 20; 
+  margin-left: 20px; 
+  margin-bottom: 0;
+}
+
+h1, h2,
+.category-title {
+  color: orange;
+}
+
+.orange-text {
+  color: orange;
+}
+
+.header-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.category p strong {
+  font-weight: bold;
+}
+
+.category p em {
+  font-style: italic;
+}
+
+.image-bubble {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.category-image {
+  width: 80%;
+  height: 80%;
+  border-radius: 0;
+}
+
+.footer-languages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.footer-languages .language {
+  text-align: center;
+}
+
+.footer-languages img {
+  margin-bottom: 1px;
+  width: 70px;
+  height: 70px;
+}
+
+.footer-languages p {
+  margin-top: 1px;
+}
+
+.footer-contact {
+  text-align: right;
+}
+
+footer a {
+  color: inherit; /* Réinitialisation de la couleur du lien */
+  text-decoration: none; /* Suppression de la décoration du lien */
+}
+
+footer {
+  background-color: #006633;
+  color: #F4F0E4;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
